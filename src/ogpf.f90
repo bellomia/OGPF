@@ -162,7 +162,7 @@ module ogpf
     ! ogpf Configuration parameters
     ! The terminal and font have been set for Windows operating system
     ! Correct to meet the requirements on other OS like Linux and Mac.
-    character(len=*), parameter ::  gnuplot_term_type = 'wxt'                      ! Output terminal
+    character(len=*), parameter ::  gnuplot_term_type = 'qt'                       ! Output terminal
     character(len=*), parameter ::  gnuplot_term_font = 'verdana,10'               ! font
     character(len=*), parameter ::  gnuplot_term_size = '640,480'   !'960,840'                  ! plot window size
     character(len=*), parameter ::  gnuplot_output_filename='ogpf_temp_script.gp' ! temporary file for output
